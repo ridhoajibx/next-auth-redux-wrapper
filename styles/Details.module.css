@@ -1,0 +1,95 @@
+.container {
+  padding-top: 1.5rem;
+  width: 100%;
+}
+.title {
+  color: #0070f3;
+  font-size: 2rem;
+  text-align: center;
+}
+.heroName {
+  font-size: 1.8rem;
+  color: #0070f3;
+  font-weight: bold;
+}
+.card__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.loading {
+  padding-top: 200px;
+  padding-left: 190px;
+}
+
+.card__image {
+  display: flex;
+  padding: 5px;
+  align-self: center;
+  justify-self: center;
+  width: 400px;
+  height: 580px;
+  border-color: #747373;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.3);
+}
+.card__powerstats {
+  /* align-self: flex-start; */
+  width: 400px;
+  height: 580px;
+  border-color: #747373;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.3);
+}
+.Matplot {
+  display: grid;
+}
+.margin {
+  margin: 0;
+  height: 10px;
+}
+.title__category__powerstats {
+  font-size: 0.7rem;
+  color: #0070f3;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.icon_graph {
+  transform: translateX(10px) translateY(5px);
+}
+.icon__r {
+  transform: translateX(-15px) translateY(13px);
+  font-weight: 600;
+  font-size: 0.7rem;
+  color: #0070f3;
+}
+.icon__r__powerstats {
+  transform: translateX(-10px) translateY(6px);
+  font-weight: 600;
+  font-size: 0.7rem;
+  color: #0070f3;
+}
+.icon__trash {
+  font-size: 0.7rem;
+}
+
+@media (max-width: 600px) {
+  .card__image {
+    height: auto;
+  }
+  .card__powerstats {
+    padding-bottom: 30px;
+    height: auto;
+  }
+  .loading {
+    padding-top: 25vh;
+    padding-left: 30vw;
+  }
+}
